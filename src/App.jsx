@@ -18,10 +18,10 @@ function App() {
    
       <Router>
       <Routes>
-        <Route path="/" element={<Navigate replace to={`/documents/${uuidV4()}`} />}/>
+        <Route path="https://colab-backend.onrender.com/" element={<Navigate replace to={`https://colab-backend.onrender.com/documents/${uuidV4()}`} />}/>
           {/* <Navigate to={`/documents/${uuidV4()}`} />
         </Route> */}
-        <Route path="/documents/:id" element={<TextEditor />}/>
+        <Route path="https://colab-backend.onrender.com/documents/:id" element={<TextEditor />}/>
       </Routes>
     </Router>
    
