@@ -26,9 +26,9 @@ export default function TextEditor() {
     const s = io("https://colab-backend.onrender.com")
     setSocket(s)
 
-    return () => {
-      s.disconnect()
-    }
+    // return () => {
+    //   s.disconnect()
+    // }
   }, [])
 
   useEffect(() => {
